@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    padding: 21.84px;
+}
+
+.list ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+
+}
+
+.list a {
+    color: #3A3845;
+    text-decoration-line: none;
+}
+
+.icons ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 24px;
+
+}
