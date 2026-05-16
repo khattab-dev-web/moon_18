@@ -2,22 +2,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 ul {
     list-style-type: none;
 }
 
-.header {
+.container {
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    margin: auto;
+        padding: 21.84px 0;
 }
 
-.header .logo {
-    padding: 21.84px;
-}
+/* .header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; 
+
+} */
+
+
 
 .list ul {
     display: flex;
@@ -34,6 +44,6 @@ ul {
 .icons ul {
     display: flex;
     flex-wrap: wrap;
-    margin: 24px;
+    gap: 24px;
 
 }
